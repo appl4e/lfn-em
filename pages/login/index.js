@@ -1,4 +1,4 @@
-import styles from '../styles/scoped/Login.module.scss'
+import styles from '../../styles/scoped/Login.module.scss'
 const login = () => {
   return (
     <div>

@@ -1,5 +1,5 @@
-import Main from "./home";
-import Login from "./login";
+import Main from "./main";
+import Login from "./login/index"
 
 import { useRouter } from 'next/router'
 import { useEffect } from "react";
