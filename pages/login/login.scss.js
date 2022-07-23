@@ -1,4 +1,7 @@
-.lfnAdminLoginBg {
+import css from 'styled-jsx/css'
+
+export default css`
+.lfn-admin-login-bg {
   background: url("/images/lfn-admin-login-bg.jpg") no-repeat center
     center / 100% auto;
   display: flex;
@@ -17,9 +20,13 @@
     margin: 0px auto;
   }
 }
-.lfn-logo {
-  height: 135px;
+.lfn{
+  &-logo {
+    height: 135px;
+  }
+
 }
+
 .logo-in-mobile {
   height: 60px;
 }
@@ -58,3 +65,4 @@
     padding: 16px 37px;
   }
 }
+`

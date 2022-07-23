@@ -1,9 +1,10 @@
-import styles from '../../styles/scoped/Login.module.scss'
+import LoginStyle from './login.scss.js'
 const login = () => {
+  // console.log(loginStyle)
   return (
     <div>
       <div className="row g-0 vh-100">
-        <div className={` ${styles.lfnAdminLoginBg} col h-100`}>
+        <div className="lfn-admin-login-bg col h-100">
           <a href="https://www.livingfitnation.com/">
             <img src="/images/lfn-logo-1.svg" alt="LFN" className="lfn-logo me-4" />
           </a>
@@ -70,7 +71,9 @@ const login = () => {
       </div>
         </div>
       </div>
-
+      <style jsx>
+        {LoginStyle}
+      </style>
     </div>
   )
 }
