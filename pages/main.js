@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-const main = () => {
+const Main = () => {
   return (
     <div className={styles.container}>
       <Head>
@@ -68,4 +68,4 @@ const main = () => {
   )
 }
 
-export default main
+export default Main
